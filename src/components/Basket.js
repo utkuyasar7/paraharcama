@@ -10,7 +10,7 @@ function Basket({ basket, total, setBasket }) {
           <p className="text-2xl">Sepetiniz boş</p>
         ) : (
           <div className="flex flex-col max-w-md p-6 space-y-4 divide-y sm:w-96 sm:p-10 divide-gray-700 dark:bg-gray-900 dark:text-gray-100">
-            <h2 className="text-2xl font-semibold">Order items</h2>
+            <h2 className="text-2xl font-semibold">Sepet</h2>
             <ul className="flex flex-col pt-4 space-y-2">
               {basket.map((product) => (
                 <li className="flex items-start justify-between">
