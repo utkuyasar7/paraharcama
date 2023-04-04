@@ -8,7 +8,7 @@ import products from "./product.json"
 
 
 function App() {
-  const [money,setMoney] = useState(2000000000);
+  const [money,setMoney] = useState(1973827383727473837);
   const [basket,setBasket]=useState([])
   const [total,setTotal]=useState()
 
